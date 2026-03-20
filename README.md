@@ -23,23 +23,22 @@ It is the short-circuit current through the load terminals. i.e., IN = Isc
 Norton’s Resistance, RN:It is the look-back resistance across the load terminals when all the sources are replaced by their internal resistances. An ideal voltage source is replaced by short- circuiting as its internal resistance is zero. An ideal current source is replaced by open- circuiting as its internal resistance is infinity.
  
 **CIRCUIT DIAGRAM: VERIFICATION OF NORTON’S THEOREM**
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/8037feb3-97ae-4fe8-8f08-eba17462dd41" />
-
 
 **To measure IL**
+<img width="2424" height="1342" alt="image" src="https://github.com/user-attachments/assets/bb2447f1-39fa-4fe9-983f-3a801b351340" />
 
 
 **To measure RTh or RN**
+<img width="2420" height="1661" alt="image" src="https://github.com/user-attachments/assets/08a02501-81f5-4083-bbd9-88868cbec67b" />
 
 
 
 **To measure IN or Isc**
 
- 
-**Thevenin’s equivalent circuit**
+ <img width="2326" height="1333" alt="image" src="https://github.com/user-attachments/assets/3742280a-d4f0-4372-a217-919481c55e5f" />
 
 
-**Norton’s equivalent circuit**
+
 
 
 **PROCEDURE:**
@@ -72,14 +71,12 @@ Norton’s Resistance, RN:It is the look-back resistance across the load termina
 
 12.	Theoretically verify the Norton’s theorem.
 
-**TABULAR COLUMN: 1**
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/e00ddc14-4ab9-4bec-939f-9f59506629f2" />
+**TABULAR COLUMN: 1 and 2 **
+<img width="1156" height="1491" alt="image" src="https://github.com/user-attachments/assets/955418be-732e-4034-8d42-7c15ee99f69a" />
 
 To measure I L
 
 Vi (volts)	IL (amps)
-
-**TABULAR COLUMN:2**
 
 To measure RTh or RN
 
@@ -93,7 +90,8 @@ To measure IN or Isc
 Vi (volts)	IN (amps)
 	
 **MODEL CALCULATION:**
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/00bfaebd-31c3-4fa8-a1a7-3bd9973965b2" />
+<img width="1012" height="1600" alt="image" src="https://github.com/user-attachments/assets/06588839-994b-4c03-9033-d0afa6e560f2" />
+<img width="896" height="1457" alt="image" src="https://github.com/user-attachments/assets/f89f4e57-cc88-4072-aeae-8f1d99295b88" />
 
 
 Practical value of IL (from tabulation 1) =2.3mA
@@ -102,14 +100,14 @@ Practical value of IL (from tabulation 1) =2.3mA
 
 IL = IN * RN / ( RN+ RL ) = 2.43mA
 
-Theoretical calculation of IL ,IN and RTh(RN) for the given circuit:
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/0c2756b0-b778-4156-9a9f-c71c751947c8" />
+**MARK SPLITUP**
+<img width="1600" height="1436" alt="image" src="https://github.com/user-attachments/assets/c8b66dc0-c8c5-47b7-83ad-6f1177039eee" />
+
 
  
 
 
 **RESULT:**
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/ac651b1d-d59a-457c-804f-02ce9cef464a" />
 
 
 Thus Thevenin’s and Norton’s theorem is verified practically and theoretically.
